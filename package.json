@@ -1,0 +1,28 @@
+{
+  "name": "hot-game-201803-act-mob",
+  "description": "开心斗爆款游戏推广活动",
+  "author": {
+    "name": "Liyan",
+    "email": "liyan1@yy.com"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "scripts": {
+    "dev": "fec d",
+    "watch": "fec w",
+    "build": "fec o"
+  },
+  "eslintConfig": {
+    "extends": "@yy/fec"
+  },
+  "eslintIgnore": [
+    "/dev",
+    "/output"
+  ],
+  "dragont": {
+    "preset": "feteam",
+    "biz": "kaixindou",
+    "proj": "hot_game_201803_act_mob"
+  }
+}
